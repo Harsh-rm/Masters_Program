@@ -1,0 +1,52 @@
+Individuals:
++-----+-----------------------+--------+----------------+-----+-------+-----------+-------+--------+
+|  ID |          Name         | Gender |    Birthday    | Age | Alive |   Death   | Child | Spouse |
++-----+-----------------------+--------+----------------+-----+-------+-----------+-------+--------+
+|  I1 |     Sirius /Black/    |   M    |   1959-11-6    |  62 |  True |     NA    |   F1  |   NA   |
+|  I2 |    Wallia /Black/     |   F    | about 1925-1-1 |  60 | False | 1985-10-8 |   F2  |   F1   |
+|  I3 |     Oliver /Black/    |   M    |   1929-5-18    |  92 |  True |     NA    |   F3  |   F1   |
+|  I4 |    Reagan /Black/     |   M    |   1961-9-16    |  60 |  True |     NA    |   F1  |   NA   |
+|  I5 |   Melania /Mcdonalds/ |   F    |    1904-8-8    |  84 | False | 1988-12-4 |   NA  |   F3   |
+|  I6 |    Arcturus /Black/   |   M    |    1901-7-7    |  90 | False |  1991-8-6 |   F4  |   F3   |
+|  I7 |    Luna /Black/       |   F    |    1925-5-5    |  66 | False | 1992-3-28 |   F3  |   F5   |
+|  I8 |     Iris /Crab/       |   F    |   1901-11-9    |  72 | False | 1974-3-16 |   NA  |   F2   |
+|  I9 |    Phoenix /Black/    |   M    |    1902-3-3    |  88 | False |  1990-9-6 |   F6  |   F2   |
+| I10 |    Alphine /Black/    |   M    | about 1930-2-2 |  70 | False | 2000-5-18 |   F2  |   NA   |
+| I11 |   Igashoe /Pewet/     |   M    | about 1922-6-6 |  65 | False |  1988-4-9 |   NA  |   F5   |
+| I12 |     Vesper /Grant/    |   F    |   1880-11-10   |  63 | False | 1944-5-18 |   NA  |   F4   |
+| I13 |     Sirius /Black/    |   M    |   1877-10-9    |  74 | False | 1952-6-15 |   NA  |   F4   |
+| I14 |    Lynlee /Black/     |   F    |   1904-4-14    |  61 | False | 1965-9-16 |   F4  |   NA   |
+| I15 |    Reagan /Black/     |   M    |   1906-11-4    |  91 | False | 1998-4-18 |   F4  |   F8   |
+| I16 |    Cyprus /Black/     |   M    |   1927-10-4    |  64 | False |  1992-5-6 |   F2  |   F9   |
+| I17 |    Draculla /Rose/    |   F    |   1931-7-28    |  94 | False | 2025-11-6 |   NA  |   F9   |
+| I18 |  Violet /Bricoux/     |   F    |    1880-6-1    |  85 | False | 1966-5-23 |   NA  |   F6   |
+| I19 |     Litmus /Black/    |   M    |   1884-3-12    |  59 | False |  1943-7-6 |   NA  |   F6   |
+| I20 |   Cleopatra /Black/   |   F    |   1905-5-14    |  86 | False | 1992-2-10 |   F6  |   NA   |
+| I21 |     Marius /Black/    |   M    |   1907-3-14    |  72 | False | 1979-12-5 |   F6  |   NA   |
+| I22 |     Dora /Black/      |   F    |   1910-10-6    |  66 | False |  1977-5-4 |   F6  |  F10   |
+| I23 |    Charles /Hatter/   |   M    |   1914-6-25    |  83 | False | 1998-2-21 |   NA  |  F10   |
+| I24 |   Bella /Black/       |   F    |    1951-5-1    |  44 | False |  1995-5-2 |   F9  |  F11   |
+| I25 |  Ralph /Lauren/       |   M    |   1952-6-19    |  42 | False |  1995-5-2 |   NA  |  F11   |
+| I26 |      Emily /Smith/    |   F    |   1910-5-16    |  32 | False | 1943-4-12 |   NA  |   F8   |
+| I27 |     Marie /Black/     |   F    |   1934-11-28   |  86 |  True |     NA    |   F8  |   NA   |
+| I28 |    Rosie /Cambridge/  |   F    |   1914-2-10    |  82 | False |  1996-8-8 |   NA  |   F7   |
+| I29 |      John /Black/     |   M    |   1938-5-12    |  84 |  True |     NA    |   F7  |   NA   |
+| I30 |    Tess /Lauren/      |   F    |   1981-12-12   |  39 |  True |     NA    |  F11  |   NA   |
++-----+-----------------------+--------+----------------+-----+-------+-----------+-------+--------+
+
+Families:
++-----+---------+----------+------------+-----------------------+---------+----------------------+-----------------------------+
+|  ID | Married | Divorced | Husband ID |      Husband Name     | Wife ID |      Wife Name       |           Children          |
++-----+---------+----------+------------+-----------------------+---------+----------------------+-----------------------------+
+|  F1 |    Y    |    NA    |     I3     |     Oliver /Black/    |    I2   |   Wallia /Black/     |         ['I1', 'I4']        |
+|  F2 |    NA   |    NA    |     I9     |    Phoenix /Black/    |    I8   |    Iris /Crab/       |     ['I2', 'I10', 'I16']    |
+|  F3 |    NA   |    NA    |     I6     |    Arcturus /Black/   |    I5   |  Melania /Mcdonalds/ |         ['I3', 'I7']        |
+|  F4 |    NA   |    NA    |    I13     |     Sirius /Black/    |   I12   |    Hesper /Gamp/     |     ['I6', 'I14', 'I15']    |
+|  F5 |    Y    |    NA    |    I11     |   Igashoe /Pewet/     |    I7   |   Luna /Black/       |              []             |
+|  F6 |    NA   |    NA    |    I19     |     Litmus /Black/    |   I18   | Violet /Bricoux/     | ['I9', 'I20', 'I21', 'I22'] |
+|  F7 |    NA   |    NA    |    I15     |    Reagan /Black/     |   I28   |   Rosie /Cambridge/  |           ['I29']           |
+|  F8 |    NA   |    NA    |    I15     |    Reagan /Black/     |   I26   |     Emily /Smith/    |           ['I27']           |
+|  F9 |    NA   |    NA    |    I16     |    Cyprus /Black/     |   I17   |   Draculla /Rose/    |           ['I24']           |
+| F10 |    NA   |    NA    |    I23     |    Charles /Hatter/   |   I22   |    Dora /Black/      |              []             |
+| F11 |    NA   |    NA    |    I25     |    Ralph /Lauren/     |   I24   |  Bella /Black/       |           ['I30']           |
++-----+---------+----------+------------+-----------------------+---------+----------------------+-----------------------------+
